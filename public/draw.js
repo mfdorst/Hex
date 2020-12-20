@@ -33,7 +33,3 @@ function drawPoly(center, size) {
   ctx.closePath()
   ctx.stroke()
 }
-
-function generateHexPoints() {
-  return range(0, 5).map(i => [Math.cos((i * 2 * Math.PI) / 6), Math.sin((i * 2 * Math.PI) / 6)])
-}
